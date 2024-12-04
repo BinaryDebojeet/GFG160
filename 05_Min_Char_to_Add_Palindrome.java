@@ -7,6 +7,9 @@ class Solution {
     }
     
     private static int[] buildLPS(String s) {
+
+        // Input: s = "abc"  s = c b a b c
+        // Output: 2
         int n = s.length();
         
         int[] lps = new int[n];
