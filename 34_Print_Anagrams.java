@@ -2,7 +2,6 @@ import java.util.*;
 class Solution {
     public ArrayList<ArrayList<String>> anagrams(String[] arr) {
         
-        ArrayList<ArrayList<String>> ans = new ArrayList<>();
         HashMap<String, ArrayList<String>> map = new HashMap<>();
         
         for(String s : arr){
